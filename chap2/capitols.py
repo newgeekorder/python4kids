@@ -1,13 +1,14 @@
+print ("this provides an example of a python map .. it maps a key to a value")
 
-#  'Brazil' : 'Brasília',
+#Brazil : Brasilia
 captiols_sa = { 'Argentina' : 'Buenos Aires',
 'Bolivia' : 'La Paz',
 'Chile' : 'Santiago',
-'Colombia' : 'Bogotá',
+'Colombia' : 'Bogota',
 'Ecuador' : 'Quito',
-'French Guiana (France)' : 'Cayenne (Préfecture)',
+'French Guiana' : 'Cayenne',
 'Guyana' : 'Georgetown',
-'Paraguay' : 'Asunción',
+'Paraguay' : 'Asuncion',
 'Peru' : 'Lima',
 'Suriname' : 'Paramaribo',
 'Uruguay' : 'Montevideo',
@@ -22,4 +23,10 @@ captiols_sa["Colombia"] = "TracyTown"
 print ("the new capitol of Colombia is " + captiols_sa["Colombia"])
 print ("=======================")
 # print all data
-print ( captiols_sa )
+print ( "Our data", captiols_sa )
+print ("We have " +  str( len(captiols_sa) ) +  " items in our map" )
+# now delete one
+del ( captiols_sa['Bolivia'])
+print ("We now have " + str( len(captiols_sa) ) + " items in our map"  )
+
+## for an exercise add a new country 
