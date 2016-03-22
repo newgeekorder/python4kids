@@ -1,2 +1,4 @@
-# python4kids
+## python4kids
+
+### Strings 
 
