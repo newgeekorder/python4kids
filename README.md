@@ -1,4 +1,3 @@
 ## python4kids
 
-### Strings 
-
+See the [wiki](https://github.com/newgeekorder/python4kids/wiki)
